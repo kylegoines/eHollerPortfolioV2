@@ -1,0 +1,209 @@
+/////////////////////////////////////////////////////
+//reset
+/////////////////////////////////////////////////////
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/////////////////////////////////////////////////////
+//viarbles mizxins, includes
+/////////////////////////////////////////////////////
+
+$primary: #fed84f;
+
+$shadow: #dbba43;
+
+$mainText: #2c2c2c;
+
+$subText: #8e8e8e;
+
+$box: #f6f6f6;
+
+/////////////////////////////////////////////////////
+//globals
+/////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////
+//typography
+/////////////////////////////////////////////////////
+
+
+@font-face {
+    font-family: 'TradeGothicLTStdBoldCondensedNo';
+
+    src: url('../fonts/tradegothicltstd-bdcn20.svg#TradeGothicLTStdBoldCondensedNo.20') format('svg'),
+    	 url('../fonts/tradegothicltstd-bdcn20.eot') format('embedded-opentype'),
+         url('../fonts/tradegothicltstd-bdcn20.woff') format('woff'),
+         url('../fonts/tradegothicltstd-bdcn20.ttf') format('truetype');
+}
+
+body{
+	font-family: 'TradeGothicLTStdBoldCondensedNo', sans-serif;
+	color: $mainText;
+}
+
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header ul{
+	font-size: 20px;
+}
+
+/////////////////////////////////////////////////////
+//header
+/////////////////////////////////////////////////////
+
+header{
+	width: 100%;
+	height: 130px;
+	
+
+
+	ul{
+		float: right;
+		position: relative;
+		top: 53px;
+	}
+
+	ul li{
+
+		display: inline;
+		padding: 20px;
+	}
+
+	ul li a {
+		font-size: 22px;
+		color: $subText;
+		text-decoration: none;
+
+		&:hover{
+			color: #ff6168;
+		}
+	}
+
+}
+
+a.eLogo{
+	float: left;
+	display: block;
+	height: 90px;
+	width: 90px;
+	background: url(../img/logoYellow.png) no-repeat;
+	text-indent: -9999px;
+	margin: 30px 0 0 65px;
+	z-index: 200;
+	position: relative;
+	top: 20px;
+	left: 5px;
+
+
+}
+
+.dropDown{
+	background-color: #fff;
+	height: 90px;
+	width: 90px;
+	border-radius: 90px;
+	position: relative;
+	top: 70px;
+	left: 45px;
+}
+
+
+/////////////////////////////////////////////////////
+//mainPageHero
+/////////////////////////////////////////////////////
+
+.homeHero{
+	width: 100%;
+	height: 540px;
+	background-color: $primary;
+}
+
+.welcomeImg{
+	background: url(../img/welcome.png) no-repeat;
+	display: block;
+	width: 1200px;
+	height: 241px;
+	margin: 0 auto;
+	position: relative;
+	top: 130px;
+}
+
+.pointer{
+	background-color: $primary;
+	width: 50px;
+	height: 50px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform:    rotate(45deg);
+	-ms-transform:     rotate(45deg);
+	-o-transform:      rotate(45deg);
+	transform:         rotate(45deg);
+	position: relative;
+	top: 270px;
+	margin: 0 auto;
+}
+
+/////////////////////////////////////////////////////
+//bodyMainPage
+/////////////////////////////////////////////////////
+
+.wrapper{
+	position: relative;
+	top: 40px;
+}
+
+h2{
+	text-align: center;
+	color: $subText;
+	text-transform: uppercase;
+	font-size: 19px;
+	padding-top: 60px;
+}

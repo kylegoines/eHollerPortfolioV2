@@ -45,6 +45,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.clearFix {
+  clear: both; }
+
+::selection {
+  background: #ffb7b7;
+  /* Safari */ }
+
+::-moz-selection {
+  background: #ffb7b7;
+  /* Firefox */ }
+
 @font-face {
   font-family: 'TradeGothicLTStdBoldCondensedNo';
   src: url("../fonts/tradegothicltstd-bdcn20.svg#TradeGothicLTStdBoldCondensedNo.20") format("svg"), url("../fonts/tradegothicltstd-bdcn20.eot") format("embedded-opentype"), url("../fonts/tradegothicltstd-bdcn20.woff") format("woff"), url("../fonts/tradegothicltstd-bdcn20.ttf") format("truetype"); }
@@ -136,3 +147,106 @@ h2 {
   text-transform: uppercase;
   font-size: 19px;
   padding-top: 60px; }
+
+.box {
+  height: 236px;
+  width: 314px;
+  background-color: #bada55;
+  float: left;
+  margin: 54px 64px;
+  position: relative;
+  overflow: hidden; }
+
+.row .box:first-of-type {
+  margin-left: 0; }
+
+.row .box:last-of-type {
+  margin-right: 0px; }
+
+/*
+.box a{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: #fff;
+	transition: all 0.3s ease;
+	&:hover{
+		opacity: .4;
+	}
+}
+
+
+
+*/
+.box a {
+  z-index: 2;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .box a:hover {
+    opacity: .4; }
+
+.workimg {
+  position: absolute;
+  height: 236px;
+  width: 314px; }
+
+.gap {
+  background: url(../img/gap.jpg); }
+
+.vh1 {
+  background: url(../img/vh1.jpg); }
+
+.nike {
+  background: url(../img/nike.jpg); }
+
+.kettle {
+  background: url(../img/kettle.jpg); }
+
+.subaru {
+  background: url(../img/subaru.jpg); }
+
+.geico {
+  background: url(../img/geico.jpg); }
+
+.plume {
+  background: url(../img/plume.jpg); }
+
+.fcs {
+  background: url(../img/fcs.jpg); }
+
+.daughter {
+  background: url(../img/daughter.jpg); }
+
+.callout {
+  width: 100%;
+  height: 90px;
+  background-color: #fed84f; }
+  .callout h4 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 20px; }
+
+.agencyLogos {
+  background-image: url(../img/logos.jpg);
+  width: 1024px;
+  height: 224px;
+  position: relative;
+  display: block;
+  margin: 20px auto; }
+
+.thanks {
+  font-size: 20px; }

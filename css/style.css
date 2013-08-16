@@ -256,20 +256,46 @@ h2 {
   width: 400px; }
 
 .contactMe {
-  width: 800px;
-  background-color: #BADA55;
-  float: left; }
+  width: 676px;
+  float: right; }
+  .contactMe ::-webkit-input-placeholder {
+    color: white;
+    font-size: 18px;
+    font-family: 'TradeGothicLTStdBoldCondensedNo', sans-serif; }
+  .contactMe :-moz-placeholder {
+    /* Firefox 18- */
+    color: red; }
+  .contactMe ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red; }
+  .contactMe :-ms-input-placeholder {
+    color: red; }
+  .contactMe input:first-of-type {
+    margin-top: 30px; }
   .contactMe input {
-    display: block;
+    color: white;
+    font-size: 18px;
+    font-family: 'TradeGothicLTStdBoldCondensedNo', sans-serif;
+    width: 619px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    background-color: #fed84f;
+    border: none; }
+  .contactMe textarea {
+    width: 617px;
+    padding: 15px;
+    resize: none;
     background-color: #fed84f;
     border: none;
-    margin-top: 10px;
-    width: 100%;
-    height: 90px; }
+    height: 200px; }
   .contactMe input[type=submit] {
+    margin-top: 20px;
+    width: 200px;
+    height: 55px;
+    font-size: 34px;
+    padding: 0px;
     float: right;
-    width: 30%;
-    height: 60px; }
-  .contactMe textarea {
-    width: 795px;
-    resize: none; }
+    position: relative;
+    left: -29px; }
+  .contactMe input[type=submit]:hover {
+    background-color: #dbba43; }

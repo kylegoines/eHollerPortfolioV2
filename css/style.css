@@ -287,7 +287,9 @@ h2 {
     resize: none;
     background-color: #fed84f;
     border: none;
-    height: 200px; }
+    height: 200px;
+    color: white;
+    font-size: 18px; }
   .contactMe input[type=submit] {
     margin-top: 20px;
     width: 200px;
@@ -328,3 +330,49 @@ h2 {
   height: 10px;
   width: 100%;
   background-color: #fed84f; }
+
+.singleHero {
+  width: 100%;
+  height: 340px;
+  background-color: #fed84f; }
+
+.workTitle {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0px 7px 0px #dbba43;
+  letter-spacing: 2px;
+  position: relative;
+  top: 50px; }
+
+.workInfo {
+  width: 350px;
+  height: 420px;
+  background-color: #f6f6f6;
+  border-top: 5px solid #fed84f;
+  float: left; }
+  .workInfo h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 10px; }
+  .workInfo small {
+    display: block;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #8e8e8e; }
+  .workInfo p {
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8e8e8e; }
+
+.imageContent {
+  float: left;
+  width: 850px; }
+
+.imageContent img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px; }

@@ -404,6 +404,8 @@ h2{
 		background-color: $primary;
 		border: none;
 		height: 200px;
+	    color: white;
+	    font-size: 18px;
 		
 	}
 
@@ -458,3 +460,62 @@ h2{
 	background-color: $primary;
 }
 
+/////////////////////////////////////////////////////
+//single body
+/////////////////////////////////////////////////////
+.singleHero{
+	width: 100%;
+	height: 340px;
+	background-color: $primary;
+}
+
+.workTitle{
+	font-size: 100px;
+	color: #fff;
+	text-shadow: 0px 7px 0px #dbba43;
+	letter-spacing: 2px;
+	position: relative;
+	top: 50px; 
+}
+
+.workInfo{
+	width: 350px;
+	height: 420px;
+	background-color: $box;
+	border-top: 5px solid $primary;
+	float: left;
+
+	h3{
+		margin-top: 10px;
+		font-size: 18px;
+		padding-left:10px;
+	}
+	small{
+		display: block;
+		font-size: 14px;
+		padding-top: 5px;
+		padding-left: 20px;
+		color: $subText;
+	}
+	p{
+		padding-top: 20px;
+		width: 300px;
+		margin:  0 auto;
+		font-size: 18px;
+		line-height: 22px;
+		color: $subText;
+	}
+}
+
+.imageContent{
+
+	float: left;
+	width: 850px;
+
+}
+
+.imageContent img{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}

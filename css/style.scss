@@ -467,6 +467,22 @@ h2{
 	width: 100%;
 	height: 340px;
 	background-color: $primary;
+	h2{
+		margin: 0 auto;
+		display: block;
+
+		width: 1200px;
+		text-align: center;
+	}
+	.sideLogo{
+		background: url(../img/sideLogo.png) no-repeat;
+		width: 34px;
+		height: 52px;
+		float: right;
+		position: relative;
+		right: 20px;
+		top: 110px;
+	}
 }
 
 .workTitle{
@@ -518,4 +534,39 @@ h2{
 	display: block;
 	margin: 0 auto;
 	padding-bottom: 30px;
+}
+
+
+
+/////////////////////////////////////////////////////
+//blog article
+/////////////////////////////////////////////////////
+
+.blogWrap{
+	font-size: 28px;
+	font-family: serif;
+	width: 700px;	
+	margin: 0 auto;
+	color: $mainText;
+	line-height: 38px;
+	p{
+		margin-top: 40px;
+	}
+
+}
+
+.blogIntro{
+	border-left: 20px solid $primary;
+
+	p{
+		padding-left: 40px;
+		font-weight: bold;
+	}
+}
+
+.theEnd{
+	margin: 20px auto;
+	height: 53px;
+	width: 38px;
+	background: url(../img/sideLogo.png) no-repeat;
 }

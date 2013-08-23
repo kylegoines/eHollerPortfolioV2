@@ -1,0 +1,460 @@
+/*
+Theme Name: 	Starkers
+Theme URI: 		http://viewportindustries.com/products/starkers
+Description: 	The totally nude Wordpress theme!
+Version: 		4.0
+Author: 		Elliot Jay Stocks & Keir Whitaker
+Author URI: 	http://viewportindustries.com
+Tags: 			starkers, naked, clean, basic
+*/
+
+/*
+===========================
+CONTENTS:
+
+01 Sensible defaults
+02 Typography
+03 Media queries 
+===========================
+*/
+
+/* ---------------------------------------------------------------------------------------------------------- 
+01 Sensible defaults ----------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.clearFix {
+  clear: both; }
+
+::selection {
+  background: #ffb7b7;
+  /* Safari */ }
+
+::-moz-selection {
+  background: #ffb7b7;
+  /* Firefox */ }
+
+@font-face {
+  font-family: 'TradeGothicLTStdBoldCondensedNo';
+  src: url("fonts/tradegothicltstd-bdcn20.svg#TradeGothicLTStdBoldCondensedNo.20") format("svg"), url("fonts/tradegothicltstd-bdcn20.eot") format("embedded-opentype"), url("fonts/tradegothicltstd-bdcn20.woff") format("woff"), url("fonts/tradegothicltstd-bdcn20.ttf") format("truetype"); }
+
+body {
+  font-family: 'TradeGothicLTStdBoldCondensedNo', sans-serif;
+  color: #2c2c2c; }
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+header ul {
+  font-size: 20px; }
+
+header {
+  width: 100%;
+  height: 130px; }
+  header ul {
+    float: right;
+    position: relative;
+    top: 53px; }
+  header ul li {
+    display: inline;
+    padding: 20px; }
+  header ul li a {
+    font-size: 22px;
+    color: #8e8e8e;
+    text-decoration: none; }
+    header ul li a:hover {
+      color: #ff6168; }
+
+a.eLogo {
+  float: left;
+  display: block;
+  height: 90px;
+  width: 90px;
+  background: url(img/logoYellow.png) no-repeat;
+  text-indent: -9999px;
+  margin: 30px 0 0 65px;
+  z-index: 200;
+  position: relative;
+  top: 5px;
+  left: 5px; }
+
+.dropDown {
+  background-color: #fff;
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  position: relative;
+  top: 70px;
+  left: 45px; }
+
+.homeHero {
+  width: 100%;
+  height: 540px;
+  background-color: #fed84f; }
+
+.welcomeImg {
+  background: url(img/welcome.png) no-repeat;
+  display: block;
+  width: 1200px;
+  height: 241px;
+  margin: 0 auto;
+  position: relative;
+  top: 130px; }
+
+.pointer {
+  background-color: #fed84f;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: relative;
+  top: 270px;
+  margin: 0 auto; }
+
+.wrapper {
+  position: relative;
+  top: 40px; }
+
+h2 {
+  text-align: center;
+  color: #8e8e8e;
+  text-transform: uppercase;
+  font-size: 19px;
+  padding-top: 60px; }
+
+.box {
+  height: 236px;
+  width: 314px;
+  background-color: #bada55;
+  float: left;
+  margin: 54px 64px;
+  position: relative;
+  overflow: hidden; }
+
+.row .box:first-of-type {
+  margin-left: 0; }
+
+.row .box:last-of-type {
+  margin-right: 0px; }
+
+/*
+.box a{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: #fff;
+	transition: all 0.3s ease;
+	&:hover{
+		opacity: .4;
+	}
+}
+
+
+
+*/
+.box a {
+  z-index: 2;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .box a:hover {
+    opacity: .4; }
+
+.workimg {
+  position: absolute;
+  height: 236px;
+  width: 314px; }
+
+.gap {
+  background: url(img/gap.jpg); }
+
+.vh1 {
+  background: url(img/vh1.jpg); }
+
+.nike {
+  background: url(img/nike.jpg); }
+
+.kettle {
+  background: url(img/kettle.jpg); }
+
+.subaru {
+  background: url(img/subaru.jpg); }
+
+.geico {
+  background: url(img/geico.jpg); }
+
+.plume {
+  background: url(img/plume.jpg); }
+
+.fcs {
+  background: url(img/fcs.jpg); }
+
+.daughter {
+  background: url(img/daughter.jpg); }
+
+.callout {
+  width: 100%;
+  height: 90px;
+  background-color: #fed84f; }
+  .callout h4 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 20px; }
+
+.agencyLogos {
+  background-image: url(img/logos.jpg);
+  width: 1024px;
+  height: 224px;
+  position: relative;
+  display: block;
+  margin: 20px auto; }
+
+.thanks {
+  font-size: 20px; }
+
+.info {
+  float: left;
+  width: 400px; }
+
+.contactMe {
+  width: 676px;
+  float: right; }
+  .contactMe ::-webkit-input-placeholder {
+    color: white;
+    font-size: 18px;
+    font-family: 'TradeGothicLTStdBoldCondensedNo', sans-serif; }
+  .contactMe :-moz-placeholder {
+    /* Firefox 18- */
+    color: red; }
+  .contactMe ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: red; }
+  .contactMe :-ms-input-placeholder {
+    color: red; }
+  .contactMe input:first-of-type {
+    margin-top: 30px; }
+  .contactMe input {
+    color: white;
+    font-size: 18px;
+    font-family: 'TradeGothicLTStdBoldCondensedNo', sans-serif;
+    width: 619px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+    background-color: #fed84f;
+    border: none; }
+  .contactMe textarea {
+    width: 617px;
+    padding: 15px;
+    resize: none;
+    background-color: #fed84f;
+    border: none;
+    height: 200px;
+    color: white;
+    font-size: 18px; }
+  .contactMe input[type=submit] {
+    margin-top: 20px;
+    width: 200px;
+    height: 55px;
+    font-size: 34px;
+    padding: 0px;
+    float: right;
+    position: relative;
+    left: -29px; }
+  .contactMe input[type=submit]:hover {
+    background-color: #dbba43; }
+
+.thanks {
+  margin: 0px;
+  padding: 0px;
+  font-size: 34px;
+  color: #2c2c2c;
+  padding-top: 30px;
+  letter-spacing: 1px; }
+
+.info {
+  position: relative;
+  top: 90px; }
+  .info p {
+    width: 500px;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px; }
+  .info a {
+    color: #2c2c2c;
+    text-decoration: none; }
+    .info a:hover {
+      color: #ff6168;
+      text-decoration: underline; }
+
+.divider {
+  margin-top: 70px;
+  height: 10px;
+  width: 100%;
+  background-color: #fed84f; }
+
+.singleHero {
+  width: 100%;
+  height: 340px;
+  background-color: #fed84f; }
+  .singleHero h2 {
+    margin: 0 auto;
+    display: block;
+    width: 1200px;
+    text-align: center; }
+  .singleHero .sideLogo {
+    background: url(img/sideLogo.png) no-repeat;
+    width: 34px;
+    height: 52px;
+    float: right;
+    position: relative;
+    right: 20px;
+    top: 110px; }
+
+.workTitle {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0px 7px 0px #dbba43;
+  letter-spacing: 2px;
+  position: relative;
+  top: 50px; }
+
+.workInfo {
+  width: 350px;
+  height: 420px;
+  background-color: #f6f6f6;
+  border-top: 5px solid #fed84f;
+  float: left; }
+  .workInfo h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 10px; }
+  .workInfo small {
+    display: block;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: #8e8e8e; }
+  .workInfo p {
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8e8e8e; }
+
+.imageContent {
+  float: left;
+  width: 850px; }
+
+.imageContent img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 30px; }
+
+.blogWrap {
+  font-size: 28px;
+  font-family: serif;
+  width: 700px;
+  margin: 0 auto;
+  color: #2c2c2c;
+  line-height: 38px; }
+  .blogWrap p {
+    margin-top: 40px; }
+
+.blogIntro {
+  border-left: 20px solid #fed84f; }
+  .blogIntro p {
+    padding-left: 40px;
+    font-weight: bold; }
+
+.theEnd {
+  margin: 20px auto;
+  height: 53px;
+  width: 38px;
+  background: url(img/sideLogo.png) no-repeat; }
+.next a, .prev a{
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.next a:hover, .prev a:hover{
+  color: #ff6168; 
+}
+
+
+
+.next{
+  float: right;
+  position: relative;
+  top: -30px;
+}
+
+
+.prev{
+  float: left;
+  position: relative;
+  top: -30px;
+}
+

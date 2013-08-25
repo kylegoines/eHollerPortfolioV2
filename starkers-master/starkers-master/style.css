@@ -458,3 +458,33 @@ h2 {
   top: -30px;
 }
 
+.social{
+  float: left;
+}
+
+.social a{
+  display: block;
+  float: left;
+  margin-left: 40px;
+  text-indent: -99999px;
+  height: 30px;
+  width: 30px;
+  
+}
+
+.dribbble{
+  background: url(img/social/dribbble.png);
+}
+
+.linkedin{
+  background: url(img/social/linkedin.png);
+}
+
+.twitter{
+  background: url(img/social/twitter.png);
+}
+
+.facebook{
+  background: url(img/social/facebook.png);
+}
+

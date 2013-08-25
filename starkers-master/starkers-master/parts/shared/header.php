@@ -10,7 +10,7 @@
                 <li><a href="">work</a></li>
                 <li><a href="">blog</a></li>
                 <li><a href="">shop</a></li>
-                <li><a href="">contact</a></li>
+                <li><a class="contactBtn" href="">contact</a></li>
             </ul>
             <div class="dropDown"></div>
         </header>

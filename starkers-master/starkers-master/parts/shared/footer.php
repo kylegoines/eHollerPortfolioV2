@@ -14,12 +14,17 @@
             </div>
 
             <div class="contactMe form">
-                <form method="post" action="contactengine.php">
+                <!--<form method="post" action="contactengine.php">
                 <input type="text" name="Email" placeholder="email">
                 <input type="text" name="Name" placeholder="subject">
                 <textarea name="Message" placeholder="type your message here"></textarea>
                 <input type="submit" name="submit" value="Submit" class="submit-button">
-                </form>
+                </form>-->
+                <div id="widgetArea">
+                        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar-Demo') ) : ?>
+
+                        <?php endif; ?>
+                </div>
             </div>
 
         </div><!--wrapper-->

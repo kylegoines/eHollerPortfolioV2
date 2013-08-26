@@ -70,6 +70,60 @@
         wp_enqueue_style( 'screen' );
 	}	
 
+
+
+
+register_sidebars( 1,
+array(
+'name' => 'Sidebar-Demo',
+'before_widget' => '<div id="%1$s">',
+'after_widget' => '</div>',
+'before_title' => '<h3>',
+'after_title' => '</h3>'
+)
+
+);
+
+
+
+
+
+if ( function_exists('register_sidebar') ) {
+
+$allWidgetizedAreas = array("Sidebar-Demo", "footer", "Sidebar Two");
+
+foreach ($allWidgetizedAreas as $WidgetAreaName) {
+
+register_sidebar(array(
+'name'=> $WidgetAreaName,
+'before_widget' => '<div id="%1$s" class="widget %2$s left half">',
+'after_widget' => '</div>',
+'before_title' => '<h3 class="widgettitle">',
+'after_title' => '</h3>',
+));
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/* ========================================================================================================================
 	
 	Comments

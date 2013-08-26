@@ -446,16 +446,18 @@ h2 {
 
 
 .next{
-  float: right;
   position: relative;
-  top: -30px;
+  margin-top: 10px;
+  float: right;
+
 }
 
 
 .prev{
-  float: left;
   position: relative;
-  top: -30px;
+  margin-top: 10px;
+  float: left;
+
 }
 
 .social{

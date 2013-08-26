@@ -26,9 +26,11 @@
 
 
                 <?php the_content(); ?>
+                <div class="clearFix"></div>
 <div class="next"><?php next_post_link() ?></div>
-                <div class="theEnd"></div>
+
 <div class="prev"><?php previous_post_link() ?></div>
+                <div class="theEnd"></div>
             </div><!--blogwrap-->
 
 	

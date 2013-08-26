@@ -7,8 +7,8 @@
                 <li><a class="facebook" href="https://www.facebook.com/">facebook</a></li>
             </ul>
             <ul class="nav">
-                <li><a href="">work</a></li>
-                <li><a href="">blog</a></li>
+                <li><a href="http://www.elizabetholler.com/">work</a></li>
+                <li><a href="http://www.elizabetholler.com/blog">blog</a></li>
                 <li><a href="">shop</a></li>
                 <li><a class="contactBtn" href="">contact</a></li>
             </ul>

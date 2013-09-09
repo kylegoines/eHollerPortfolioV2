@@ -15,9 +15,9 @@ Template Name: kettle
             <div class="stickArea">
                 <div class="workInfo">
                     <h3>Kettle Chips</h3>
-                    <small>with Burst Media</small>
+                    <small>with Deutsch and Burst Media</small>
                     <p>
-                       change me!
+                       we achieved this by using top influencers to drive conversation and engagement via blog posts, Facebook, and Twitter. We utilized the brands statement of “the real Kettle Chips” to educate users about all the aspects that make the Kettle Chip not only great to eat but healthier than other brands. By highlighting over each blue dot it gives a closer look to what makes them so special.
                     </p>
                 </div>
 

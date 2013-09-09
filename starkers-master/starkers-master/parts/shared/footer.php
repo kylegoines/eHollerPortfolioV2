@@ -9,7 +9,7 @@
                 <p><a href="">ELLEHOLLER@GMAIL.COM</a></p>
                 <br><br>
                 <p>For Resume</p>
-                <p><a href="">CLICK HERE</a></p>
+                <p><a href="<?php bloginfo('template_directory');?>/EH_Resume2013.pdf">CLICK HERE</a></p>
 
             </div>
 

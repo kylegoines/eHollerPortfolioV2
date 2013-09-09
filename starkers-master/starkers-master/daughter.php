@@ -15,9 +15,9 @@ Template Name: daughter
             <div class="stickArea">
                 <div class="workInfo">
                     <h3>Only Daughter</h3>
-                    <small>with Burst Media</small>
+                    <small>Independent</small>
                     <p>
-                       change me!
+                       Competition was present in our house as my mother and father’s battle continued for the best salsa in local competitions and make shift work battles it was fitting that I would step in and make those recipes my own Growing up as an only daughter deemed fitting for a new line of salsas and further creating the complete brand with dry rubs, beer and other “only daughter” products. We have been cooking up our salsa in hopes that it brings a flavor to the salsa isle of our local market. Hopefully this is the beginning of something great and tasty.
                     </p>
                 </div>
 

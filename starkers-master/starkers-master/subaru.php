@@ -7,7 +7,7 @@ Template Name: subaru
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
         <div class="singleHero">
-            <h2 class="workTitle">Subaru - 2014 Forester</h2>
+            <h2 class="workTitle">Subaru - Confidence in Motion Campaign</h2>
         </div><!--homeHero-->
 
         <div class="wrapper">
@@ -15,9 +15,9 @@ Template Name: subaru
             <div class="stickArea">
                 <div class="workInfo">
                     <h3>Subaru</h3>
-                    <small>with Burst Media</small>
+                    <small>with Carmichael Lynch</small>
                     <p>
-                       change me!
+                       To amplify and extend the “Back Seat” anthem by celebrating the diversity of life in the back seat, we created an exciting rich media unit incorporating YouTube videos to put the all new Subaru Forester front and center, and capture your audience’s attention with an impactful and interactive unit that animates across the screen.
                     </p>
                 </div>
 

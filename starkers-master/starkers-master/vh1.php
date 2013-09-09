@@ -15,9 +15,9 @@ Template Name: vh1
             <div class="stickArea">
                 <div class="workInfo">
                     <h3>Vh1</h3>
-                    <small>with Burst Media</small>
+                    <small>with Hill Holiday and Burst Media</small>
                     <p>
-                       change me!
+                       Broadcast the premiere of “Best Week Ever” by utilizing a high-impact message ad unit. Creating a modern and youthful design with Hill Holiday to reach target audiences. And also addressing the launch of the new show Jenny McCarthy, we designed a massive brand experience with our first to market swipe-able mobile unit that preformed over expected CTR. 
                     </p>
                 </div>
 

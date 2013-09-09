@@ -15,9 +15,9 @@ Template Name: plume
             <div class="stickArea">
                 <div class="workInfo">
                     <h3>Plume</h3>
-                    <small>with Burst Media</small>
+                    <small>Independent</small>
                     <p>
-                       change me!
+                       A creative answer for a store that needed a more organic, efficient, display package and shipping design. The packaging and labeling is a versatile and greener way to package products. It uses recycled cardboard to form boxes and designed labels for a double use for shipping as well as a labeling.
                     </p>
                 </div>
 

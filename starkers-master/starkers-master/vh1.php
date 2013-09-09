@@ -7,7 +7,7 @@ Template Name: vh1
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
         <div class="singleHero">
-            <h2 class="workTitle">Vh1 - Mobile Campagin</h2>
+            <h2 class="workTitle">Vh1 - Mobile Campaign</h2>
         </div><!--homeHero-->
 
         <div class="wrapper">

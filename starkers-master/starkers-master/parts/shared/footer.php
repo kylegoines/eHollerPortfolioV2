@@ -5,7 +5,7 @@
             <div class="info">
 
 
-                <p>For General Questions Pleae Contact:</p>
+                <p>For General Questions Please Contact:</p>
                 <p><a href="">ELLEHOLLER@GMAIL.COM</a></p>
                 <br><br>
                 <p>For Resume</p>

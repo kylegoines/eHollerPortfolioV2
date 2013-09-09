@@ -7,7 +7,7 @@ Template Name: kettle
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
         <div class="singleHero">
-            <h2 class="workTitle">Kettle Chips Campagin</h2>
+            <h2 class="workTitle">Kettle Chips Campaign</h2>
         </div><!--homeHero-->
 
         <div class="wrapper">
